@@ -44,7 +44,7 @@ ul {
 }
 
 nav {
-    background-color: #f3faff;
+    background-color: #004a80;
     box-shadow: 0 0 4px #bbd0e2;
     position: fixed;
     top: 0;
@@ -59,11 +59,13 @@ nav {
 }
 
 .company-logo img {
-    width: 120px;
+    width: 50px;
 }
 
 .nav-links ul {
-    gap: 16px;
+    gap: 25px;
+    color: #f9fdff;
+
 }
 
 .hover-link {
@@ -118,12 +120,12 @@ main {
 .cards-container {
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 10px;
     align-items: start;
 }
 
 .card {
-    width: 360px;
+    width: 250px;
     min-height: 400px;
     box-shadow: 0 0 4px #d4ecff;
     border-radius: 4px;
